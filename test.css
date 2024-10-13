@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+/*
+//定义标记p选择器
+//定义类别选择器.csl
+//定义ID选择器#cs2
+*/
+p {
+	background-color:blue;
+	color:red;
+	}       
+.cs1{
+	font-family:华文行楷;
+	font-size:35px;
+	}  
+#cs2{
+	color:green;
+	} 

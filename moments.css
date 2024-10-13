@@ -1,0 +1,175 @@
+a {
+  text-decoration: none;
+}
+
+header {
+  background: rgba(182, 208, 151, 0.78);
+  padding-left: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+header a {
+  height: 60%;
+  margin-right: 10px;
+}
+
+header a img {
+  height: 100%;
+}
+
+header h2 {
+  height: 100%;
+  line-height: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+.w {
+  margin: auto 100px;
+}
+
+.send-moment {
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.send-content {
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+.send-moment .send-info {
+  display: block;
+  float: left;
+  width: calc(100% - 120px);
+  height: 100px;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
+  border: none;
+}
+
+.photo-img {
+  float: left;
+  background-color: #e8fbd9;
+  width: 120px;
+  height: 100px;
+}
+
+.send-moment img {
+  display: block;
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+}
+
+.send-option {
+  background-color: #fbf9e9;
+  overflow: hidden;
+}
+
+.send-option .send-btn {
+  float: right;
+  background-color: #d9e4c2;
+  color: white;
+  border: none;
+}
+
+.moment-list h3 {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: 400;
+}
+
+
+.moment-list h3 img {
+  position: absolute;
+  right: 0;
+  margin-top: 2px;
+  margin-right: 60px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.moment-item {
+  margin-top: 10px;
+  width: 100%;
+  background: linear-gradient(rgba(230, 250, 213, 255) 0%, rgba(230, 250, 213, 0) 100%);
+}
+
+.user-info {
+  overflow: hidden;
+}
+
+.user-info .head-img {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.head-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+
+}
+
+.user-detail {
+  float: left;
+  margin-top: 10px;
+}
+
+.user-detail span {
+  margin-left: 20px;
+}
+
+.moment-list p {
+  margin-top: 10px;
+  text-indent: 2em;
+}
+
+.moment-option {
+  display: flex;
+  justify-content: right;
+}
+
+.moment-option button {
+  border: none;
+  width: 40px;
+  height: 30px;
+  margin-right: 10px;
+  background-color: white;
+}
+
+.moment-option button img {
+  width: 100%;
+  height: 100%;
+}
+
+.line1 {
+  margin: auto 30px;
+  margin-top: 6px;
+  border-bottom: 2px solid #c5c7c3;
+}
+
+.praise-info {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.praise-info img {
+  width: 30px;
+  height: 20px;
+}
+
+.comment-list {
+  margin-top: 10px;
+  list-style: none;
+}

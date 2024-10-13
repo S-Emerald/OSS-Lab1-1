@@ -1,0 +1,232 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 115px;
+  box-sizing: border-box;
+  background: linear-gradient(rgba(254, 230, 230, 255) 12.214%, rgba(254, 230, 230, 0) 82.443%);
+  border: 1px solid linear-gradient(rgba(36, 89, 61, 188) 0%, rgba(255, 255, 255, 0) 100%);
+  backdrop-filter: blur(4px);
+}
+
+header h2 {
+  color: rgba(36, 89, 61, 0.74);
+  font-family: Noto Sans SC;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 95px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.content {
+  width: 100%;
+  overflow: hidden;
+}
+
+.add-content h2 {
+  text-align: center;
+  position: relative;
+}
+
+.add-content {
+  width: 40%;
+  float: left;
+}
+
+.add-content h2 img {
+  position: absolute;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.add-content>h3 {
+  text-align: center;
+  background: conic-gradient(from 180deg at 50% 50%, rgba(195, 240, 137, 128) 0%, rgba(181, 210, 249, 0) 100%);
+}
+
+.add-content .add-item {
+  display: flex;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.add-content .head-img {
+  width: 60px;
+  height: 60px;
+}
+
+
+.head-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+
+.add-content .add-info {
+  flex: 6;
+  margin-left: 20px;
+}
+
+.add-info span {
+  color: #7f7f7f;
+}
+
+.add-content .add-result {
+  flex: 4;
+  color: #7f7f7f;
+}
+
+.add-content .add-result {
+  text-align: right;
+}
+
+.add-result .agree {
+  text-decoration: none;
+  color: #07c160;
+}
+
+.add-result .lose {
+  text-decoration: none;
+  color: #f95656
+}
+
+.contacts-content {
+  float: left;
+  width: calc(60% - 120px);
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.friends h3 {
+  text-align: left;
+  font-weight: 400;
+}
+
+.friends h3 img {
+  margin-top: 2px;
+  margin-left: 60px;
+  width: 30px;
+  height: 30px;
+}
+
+.friends h3 a {
+  text-decoration: none;
+  color: aqua;
+  margin-top: 2px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.contact-item {
+  display: flex;
+  margin-top: 20px;
+}
+
+.contact-item .head2-img {
+  width: 60px;
+  height: 60px;
+}
+
+.head2-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+
+.contact-info {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.contact-option {
+  flex: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.contact-option a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.contact-option .chat {
+  color: #07c160;
+}
+
+
+.contact-option .friends {
+  color: #07c160;
+}
+
+.contact-option .delete {
+  color: #f95656
+}
+
+.contacts-content .group {
+  margin-top: 30px;
+}
+
+#mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 1;
+  display: none;
+}
+
+.del-dialog {
+  box-sizing: content-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 200px;
+  background-color: white;
+  border: 2px solid black;
+  z-index: 2;
+  display: none;
+}
+
+#del-title h2 {
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  border-bottom: 2px solid #e1dddd;
+  margin: 0;
+  padding: 0;
+}
+
+#del-option {
+  height: 100px;
+}
+
+#del-msg1,
+#del-msg2 {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  border: none;
+  color: #07c160;
+  font-size: 20px;
+}
+
+#del-msg1 {
+  border-right: 2px solid #e1dddd;
+  color: #f95656
+}
